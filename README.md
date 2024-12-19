@@ -1,6 +1,6 @@
 # ePortfolio
 
-Description
+
 This ePortfolio serves as a showcase of my academic journey and project contributions throughout my Computer Science studies. It includes various projects, research, and technical solutions developed using a wide range of technologies. Each project highlights my skills in software development, machine learning, web development, and problem-solving. This repository provides insights into my learning process, technical growth, and ability to apply theoretical knowledge to real-world applications.
 
 Key projects include machine learning models, web applications, and system designs that reflect my dedication to innovation and continuous improvement in the field of technology.
