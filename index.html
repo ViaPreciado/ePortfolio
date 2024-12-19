@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Specifies the language of the document -->
+<head>
+    <meta charset="UTF-8"> <!-- Specifies the character encoding -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Ensures proper scaling on all devices -->
+
+    <!-- FONT -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Links to Font Awesome for icons -->
+    
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css"> <!-- Links to the main CSS stylesheet -->
+    <title>Welcome to my Portfolio!</title> <!-- Title of the webpage -->
+</head>
+<body>
+    <!-- HEADER DESIGN -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a> <!-- Logo and link back to homepage -->
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i> <!-- Menu icon for mobile view -->
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a> <!-- Navigation links -->
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello!</h3>
+            <h1>I'm <span class="highlight">Via Preciado</span></h1>
+            <h3>A 3rd year <span></span>Computer Science Student</span></h3>
+            <p>I strive to make a meaningful impact to the world.</p>
+            <div class="social-media">
+                <a href="https://www.facebook.com/via.nnic/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a> <!-- Facebook -->
+                <a href="https://x.com/viapreciado" target="_blank"><i class="fa-brands fa-twitter"></i></a> <!-- Twitter -->
+                <a href="https://www.instagram.com/vvia.p/" target="_blank"><i class="fa-brands fa-instagram"></i></a> <!-- Instagram -->
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="Images/home-picture.png" alt="Formal ID"> <!-- Profile picture -->
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class ="about-img">
+            <img src="Images/about-img.png" alt=""> <!-- About image -->
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">ABOUT <span> Me</span></h2>
+            <h3> CS Student</h3>
+            <p>I have a background in Python, C++, Java, HTML, CSS, SQL, and JavaScript, with a passion for building efficient and user-centric applications. My skills lie in problem-solving, software development, and continuous learning of new technologies. In my free time, I enjoy watching movies, playing with my cats, and exploring creative ways to improve my coding journey.</p>
+            <a href="#projects" class="btn">Read more</a> <!-- Link to projects section -->
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="images/Viel Search.png" alt="Viel Search Algorithm">
+                <h3>Viel Search Algorithm</h3>
+                <p>The Viel Search Algorithm is a hybrid method that combines Binary Search’s efficiency with Linear Search’s versatility to improve search operations in both sorted and unsorted arrays.</p>
+                <a href="https://github.com/ViaPreciado/Viel-Hybrid-Search-Algorithm.git" class="btn">Read more</a> <!-- Link to project details -->
+            </div>
+
+            <div class="projects-box">
+                <img src="Images/shoe.jpg" alt="Shoe Detection System">
+                <h3>U-Step: Shoe Detection System</h3>
+                <p>A machine learning project using YOLOv8 that detect students who are not wearing footmops on lab facilities, ensuring better hygiene management. </p>
+                <a href="https://github.com/Anoreh02/shoe_detector.git" class="btn">Read more</a> <!-- Placeholder for future link -->
+            </div>
+
+            <div class="projects-box">
+                <img src="images/freedomwall.png" alt="USTP Freedom Wall">
+                <h3>USTP Freedom Wall</h3>
+                <p>This project is a PHP-based website that replicates the USTP Freedom Wall Facebook page, utilizing Blade templating and HTML for a dynamic and user-friendly experience.</p>
+                <a href="https://github.com/iszrt/freedomWall" class="btn">Read more</a> <!-- Link to project details -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type ="text" placeholder="Full Name">
+                <input type ="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>© 2024 Via Nicole Preciado. All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a> <!-- Scroll to top button -->
+        </div>
+    </footer>
+
+    <!-- SCROLL JS SECTION -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- MAIN JS SECTION -->
+    <script src="main.js"></script>
+</body>
+</html>
